@@ -25,7 +25,7 @@ function writeinfo(symlen){var l3=[],l3n=0;var i,nd,nz=0,ts2;if(charts==0){var o
 for(i=0;i<symlen;i++){nd=sd(i);if(charts==1){writelargewlc(currentzoomwlc[i],i,nd);document.write(od(i,nd))}else od(i,nd)}
 if(charts==0){document.write('</table></td></tr></table></div>')}
 if(charts==1){for(i=0;i<symlen;i++)
-if(wlc_nochart[i]==0){gdivnametsm[i]=getid("ttb"+i);gdivnamepdata[i]=getid("pdatadiv"+i);pdataright[i]=1;wlcquotedata(i,624,0);wlcwriteoverallsum("overallsum"+i,i)}}}
+if(wlc_nochart[i]==0){gdivnametsm[i]=getid("ttb"+i);gdivnamepdata[i]=getid("pdatadiv"+i);pdataright[i]=1;wlcquotedata(i,615,0);wlcwriteoverallsum("overallsum"+i,i)}}}
 var i,vstr='';for(i=0;i<35;i++)
 vstr+='<div id="vimg'+i+'" style="border:0.5px solid #999;background:#fff;display:none;z-index:10;position:absolute;top:0px;left:0px;"><!-- --></div>';document.write(vstr);function checkvimg(num){var i,temp=getid('vimg'+num);if((temp)&&(temp.style.display=="block")){temp.style.display="none";return 0}else{for(i=0;i<35;i++)
 getid('vimg'+i).style.display="none";return 1}}
