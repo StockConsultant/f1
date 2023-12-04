@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "StockConsultant",
+    "short_name": "SC",
     "icons": [
         {
             "src": "https://cdn.jsdelivr.net/gh/StockConsultant/f1@133/android-chrome-48x48.png",
